@@ -52,7 +52,7 @@ Go to the `POST /recommendations` endpoint, click "Try it out", and paste this i
   "activity_type": "course"
 }
 
-```json
+```
 
 Here is a list of all the possible inputs.
 **Note you can also just leave some of them empty if you dont want to write anything for the ("").**
