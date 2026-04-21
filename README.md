@@ -1,11 +1,6 @@
 # My ProLearning Recommendation API (Option B)
 
 
-## Disclamer & Tools
-Before I start I want to preface that I used AI to assist me to write the code, create the data base and to even start out tell me how & where I could research information in order to be able to do this on my own. I will say I don't think I would've given this same quality of work without AI
-
-I also used FASTAPI & PYDANTIC to have most of my error handling and the hosting set up.
-
 ##  Introduction: What I built and focused on
 Hi! I'm a student at granite bay high school, and for my internship project, I chose **Option B: Backend / API**. 
 

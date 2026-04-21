@@ -3,7 +3,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional, List
 
-# Acts as a simulated, normalized database containing U.S.-focused ProLearning opportunities.
+# Acts as a simulated, normalized database.
 LEARNING_DATABASE = [
     {
         "id": 1,
@@ -386,9 +386,9 @@ def get_recommendations(query: SearchQuery) -> RecommendationResponse:
             if item["cost"] == 0:
                 explanation += " Bonus: this resource is completely FREE!"
             if item["is_verified"]:
-                explanation += f" ✓ Verified as of {item['last_verified']}."
+                explanation += f" Verified as of {item['last_verified']}."
             else:
-                explanation += f" ⚠ Not recently verified — please confirm details at the source."
+                explanation += f" Not recently verified — please confirm details at the source."
 
             recommendation = Recommendation(
                 id=item["id"],
